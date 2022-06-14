@@ -1,7 +1,10 @@
+import Showcase from "./Showcase.js";
+import "./App.css";
+
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
+    <div className="main-wrapper background">
+      <Showcase />
     </div>
   );
 }
